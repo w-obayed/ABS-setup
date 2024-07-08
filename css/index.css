@@ -792,7 +792,7 @@ ul {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 45vh;
+    height: 65vh;
   }
   .banner-text {
     width: 100%;
@@ -892,7 +892,7 @@ ul {
   .contact-section {
     background: url("../image/Rectangle\ 4343-1.png") no-repeat center
       center/cover;
-    height: 50vh;
+    height: 60vh;
     justify-content: end;
     margin-bottom: 100px;
   }
