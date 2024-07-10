@@ -188,6 +188,7 @@ ul {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  user-select: none;
 }
 
 .hamburger-menu .bar {
@@ -774,7 +775,7 @@ ul {
     position: absolute;
     right: 15px;
     top: 70%;
-    width: 25%;
+    width: 30%;
     border-radius: 5px;
     z-index: 9;
   }
@@ -958,8 +959,31 @@ ul {
     align-items: center;
     text-align: center;
   }
+  .footer-top {
+    position: relative;
+  }
+  .footer-top::after {
+    content: "";
+    position: absolute;
+    top: 35.5%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #aab1b7;
+  }
+  .footer-top::before {
+    content: "";
+    position: absolute;
+    bottom: 34.5%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #aab1b7;
+  }
   .footer-logo p {
     line-height: 30px;
+    width: 100%;
+    height: 165px;
   }
 }
 @media (width <= 450px) {
