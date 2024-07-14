@@ -82,3 +82,33 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+// slider js
+var swiperOne = new Swiper(".c-swiper", {
+  slidesPerView: 3,
+  spaceBetween: 50,
+  loop: true,
+  fade: "true",
+  grabCursor: "true",
+  centeredSlides: true,
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
+  navigation: {
+    nextEl: ".next-one",
+    prevEl: ".prev-one",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+  },
+});
